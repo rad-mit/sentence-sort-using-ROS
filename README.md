@@ -8,12 +8,12 @@ The first node, namely `/input_node` accepts the sentence as string input from t
 To work with this, you need to have `Ubuntu 16.04 + ROS Kinetic` or `Ubuntu 18.04 + ROS Melodic` installed locally or in a virtual machine.  
 
 1.Open a new terminal window using `Ctrl+Alt+T`.  
-2.Create a new ROS workspace, say `catkin_ws`  
-`$ mkdir catkin_ws`  
-3.Change the current working directory to `catkin_ws`  
-`$ cd catkin_ws`  
-4. Clone this repository  
+2. Clone this repository  
 `$ git clone https://github.com/rad-mit/sentence-sort-using-ROS`  
+3.Rename the folder to whatever you want to call your new ROS workspace, say `catkin_ws`  
+`$ mv sentence-sort-using-ROS catkin_ws`  
+4.Change the current working directory to `catkin_ws`  
+`$ cd catkin_ws`  
 5. Build your workspace using 
 `$ catkin_make`  
 6. Source your `setup.bash` file  
