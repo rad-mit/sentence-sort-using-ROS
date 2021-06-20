@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<launch>
+  <node name="input_node" pkg="task" type="input_node.py"
+    output="screen"/>
+<node name="sort_node" pkg="task" type="sort_node.py"
+    output="screen"/>
+<node name="output_node" pkg="task" type="output_node.py"
+    output="screen"/>
+</launch>
